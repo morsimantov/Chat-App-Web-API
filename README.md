@@ -1,4 +1,4 @@
-# Advanced Programming 2 - EX2 - Chats Application: 
+# Chat Application with API service
 
 
 1. [About](#About)
@@ -22,14 +22,14 @@ You can find the modules installed in package.json -> dependencies. When running
   ```npm start```  
 * The project uses react-router and react-bootstrap packages.
 * Modules installed can be found in package.json -> dependencies
-* our site uses microsoft/signal.
-* Web-Api service needs to run as well - **Web API folder name: "WebApplication1".**
-* Rating page ASP.net needs to run as well - **Rating App folder name: "MyWebApplication"**.
+* Our site uses microsoft/signal.
+* Web-Api service needs to run as well - **Web API folder name: "WebApplicationChat".**
+* Rating page ASP.net needs to run as well - **Rating App folder name: "WebApplicationRatings"**.
 * **The React App is at another repository - in the link: https://github.com/ShaiFisher1/Advanced_Programming_ex2_react_app.**
 * The domain of the website is set to deafault at "localhost:7170". If the port needs to be changed, then you need to change the variable - "portNumber" in the file "ServerAddress.js" to the wanted port.
-* Remove Migration folder from folder "MyWebApplication" and "WebApplication1" and and Drop table if exists. Then connect by the following commands:\
-first command: Add-Migration Init second command: Update-Database
-* If the domain of thr rating page needs to be changed - then you need to change the variable "ratingAppLink" at row 14 in the file "LoginItem.js".
+* Remove Migration folder from the folder "WebApplicationChat" and "WebApplicationRatings" and and Drop table if exists. Then connect by the following commands:\
+first command: Add-Migration Init, second command: Update-Database
+* If the domain of the rating page needs to be changed - then you need to change the variable "ratingAppLink" at row 14 in the file "LoginItem.js".
 
 
 ## Instructions

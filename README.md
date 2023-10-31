@@ -1,4 +1,4 @@
-# Chat Application with API service
+# Web Chat with API service
 
 
 1. [About](#About)

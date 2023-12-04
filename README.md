@@ -9,7 +9,9 @@
 ## About
 ### We created a web service chat.
 
-The project has a Registration page, a Login page and a Chat page, and also a Rating page screen.\
+This project uses NodeJS, JavaScript, React, HTML and CSS. We built an API server using ASP.NET in MVC pattern, and MariaDB database.
+
+The project has a Registration page, a Login page and a Chat page, and also a Rating page screen.
 
 **The project uses react-router and react-bootstrap packages.**
 You can find the modules installed in package.json -> dependencies. When running ```npm install``` installations are made according to this file

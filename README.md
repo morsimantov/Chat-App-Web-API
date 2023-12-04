@@ -34,7 +34,7 @@ You need to fill in his username and server. You may choose any nickname you wan
 
 Note: The contact must be a registerd user! 
 
-![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/28fb6b23-f6a3-4aba-a920-243433f6d0dd)
+![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/07dedcc2-3eea-43b2-987d-588cc43e351a)
 
 Start chatting! Any message you send will be sent to your contact and can be viewd by him as well (and vice versa; the message is sent to the contact's server).
 

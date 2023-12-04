@@ -7,10 +7,38 @@
 4. [Authors](#Authors)
 
 ## About
-We created a web service chat.\
-The project has a Registration screen, a Login screen a Chat screen, and a Rating page screen.\
+### We created a web service chat.
+
+The project has a Registration page, a Login page and a Chat page, and also a Rating page screen.\
+
 **The project uses react-router and react-bootstrap packages.**
 You can find the modules installed in package.json -> dependencies. When running ```npm install``` installations are made according to this file
+
+### Registeration Page
+
+You must fill in all the fields. The password should be at least 8 characters, and contain both letters and numbers.
+
+![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/858d9c71-f098-4e65-a71a-b487fa915fc6)
+
+### Login Page
+
+Only registered users can login.
+
+![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/16e24095-7c05-4bf3-b781-f6151c0bf62a)
+
+### Chat Page
+
+Adding a new contact:
+
+You need to fill in his username and server. You may choose any nickname you want.
+
+Note: The contact must be a registerd user! 
+
+![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/28fb6b23-f6a3-4aba-a920-243433f6d0dd)
+
+Start chatting! Any message you send will be sent to your contact and can be viewd by him as well (and vice versa; the message is sent to the contact's server).
+
+![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/a2031173-561e-4d00-9804-45388c7223c1)
 
 
 ## Dependencies
@@ -33,9 +61,9 @@ first command: Add-Migration Init, second command: Update-Database
 
 
 ## Instructions
-* In order to log in, if a user is already registered and found (in the database) you can log in, otherwise, register.
+* In order to login, if a user is already registered and found (in the database) you can login, otherwise, register.
 * Running the program leads to the Login screen (run by opening the terminal and then ```npm start```)
-* By entering a correct registered user (found in the DB) with username and password, you will be able to log in.\
+* By entering a correct registered user (found in the DB) with username and password, you will be able to login.\
   Onced logged in you will be navigated to the Chat screen.
 * When in the chat screen, the contacts of current user are shown on the left,\
   and by clicking on any one of them you can see the chat of the current user with the selected contact.

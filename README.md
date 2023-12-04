@@ -38,7 +38,7 @@ Note: The contact must be a registerd user!
 
 Start chatting! Any message you send will be sent to your contact and can be viewd by him as well (and vice versa; the message is sent to the contact's server).
 
-![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/a2031173-561e-4d00-9804-45388c7223c1)
+![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/9746ad75-2237-4d35-916e-b95db54fd70a)
 
 
 ## Dependencies

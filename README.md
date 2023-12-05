@@ -7,14 +7,16 @@
 4. [Authors](#Authors)
 
 ## About
-### We created a web service chat.
+### In this project we created a web service chat.
 
-This project uses NodeJS, JavaScript, React, HTML and CSS. We built an API server using ASP.NET in MVC pattern, and MariaDB database.
-
-The project has a Registration page, a Login page and a Chat page, and also a Rating page screen.
-
-**The project uses react-router and react-bootstrap packages.**
+- This project uses NodeJS, JavaScript, React, HTML and CSS.
+- We built an API server using ASP.NET in MVC pattern.
+- Using MariaDB relational database.
+- We also used SignalR, a library in ASP.NET that allows real-time communication between our server and connected clients. That means when a user sends a message to another user connected to our app, our server pushes the content to the other user in real-time without the need for the users (AKA clients) to constantly poll the server for updates.
+- **The project uses react-router and react-bootstrap packages.**
 You can find the modules installed in package.json -> dependencies. When running ```npm install``` installations are made according to this file
+
+We created a Registration page, a Login page and a Chat page, and also a Rating page screen.
 
 ### Registeration Page
 

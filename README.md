@@ -18,7 +18,7 @@ You can find the modules installed in package.json -> dependencies. When running
 
 We created a Registration page, a Login page and a Chat page, and also a Rating page screen.
 
-### Registeration Page
+### Registration Page
 
 You must fill in all the fields. The password should be at least 8 characters, and contain both letters and numbers.
 
@@ -36,11 +36,11 @@ Adding a new contact:
 
 You need to fill in his username and server. You may choose any nickname you want.
 
-Note: The contact must be a registerd user! 
+Note: The contact must be a registered user! 
 
 ![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/07dedcc2-3eea-43b2-987d-588cc43e351a)
 
-Start chatting! Any message you send will be sent to your contact and can be viewd by him as well (and vice versa; the message is sent to the contact's server).
+Start chatting! Any message you send will be sent to your contact and can be viewed by him as well (and vice versa; the message is sent to the contact's server).
 
 ![image](https://github.com/morsimantov/Chat-App-Web-API/assets/92635551/9746ad75-2237-4d35-916e-b95db54fd70a)
 
@@ -58,8 +58,8 @@ Start chatting! Any message you send will be sent to your contact and can be vie
 * Web-Api service needs to run as well - **Web API folder name: "WebApplicationChat".**
 * Rating page ASP.net needs to run as well - **Rating App folder name: "WebApplicationRatings"**.
 * **The React App is at another repository - in the link: https://github.com/ShaiFisher1/Advanced_Programming_ex2_react_app.**
-* The domain of the website is set to deafault at "localhost:7170". If the port needs to be changed, then you need to change the variable - "portNumber" in the file "ServerAddress.js" to the wanted port.
-* Remove Migration folder from the folder "WebApplicationChat" and "WebApplicationRatings" and and Drop table if exists. Then connect by the following commands:\
+* The domain of the website is set to default at "localhost:7170". If the port needs to be changed, then you need to change the variable - "portNumber" in the file "ServerAddress.js" to the wanted port.
+* Remove Migration folder from the folder "WebApplicationChat" and "WebApplicationRatings" and Drop table if exists. Then connect by the following commands:\
 first command: Add-Migration Init, second command: Update-Database
 * If the domain of the rating page needs to be changed - then you need to change the variable "ratingAppLink" at row 14 in the file "LoginItem.js".
 
@@ -68,7 +68,7 @@ first command: Add-Migration Init, second command: Update-Database
 * In order to login, if a user is already registered and found (in the database) you can login, otherwise, register.
 * Running the program leads to the Login screen (run by opening the terminal and then ```npm start```)
 * By entering a correct registered user (found in the DB) with username and password, you will be able to login.\
-  Onced logged in you will be navigated to the Chat screen.
+  Once logged in you will be navigated to the Chat screen.
 * When in the chat screen, the contacts of current user are shown on the left,\
   and by clicking on any one of them you can see the chat of the current user with the selected contact.
 * Sending a new message:
